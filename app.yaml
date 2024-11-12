@@ -13,7 +13,7 @@ spec:
     app: nginx
 ---
 apiVersion: apps/v1
-kind: Deployment
+kind: Pod
 metadata:
   name: k8s-activity-timjoshcuasay # Change this if needed
   labels:
